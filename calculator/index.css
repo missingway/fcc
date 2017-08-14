@@ -1,7 +1,0 @@
-body,html{background-color:#3D3DBF;}
-#calculator{position:absolute;left:50%;top:160px;margin-left:-200px;width:400px;background-color:#00CFFF;padding:15px;border-radius:10px;opacity: 0.8;}
-#calculator h3{margin-top:0; text-align: center;color:#A0FAFF;}
-#calculator input{border:none;background-color:#A0FAFF; display: block;margin-bottom: 15px;color:#033FA8;text-align: right;}
-#btns button{margin-right:4px;margin-bottom: 4px;background-color: #fff;background-image:none;width:89px;color:#033FA8;}
-#btns button.last{margin:0;}
-#calContainer{width:370px;overflow:hidden;}
