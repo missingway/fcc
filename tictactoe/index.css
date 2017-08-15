@@ -1,0 +1,7 @@
+#board{width:500px;height:500px;background: #000;position: relative;top:100px;padding:20px;border-radius:10px;}
+.chessPoint{height:152px;border:1px solid yellow;cursor: pointer;color:#fff;text-align: center;font-weight: normal;font-size: 5em;
+	padding-top:22px;}
+
+.modal-body{background-color:#000;color:#fff;text-align: center;font-size: 1.5em;}
+.modal-body h3{border-bottom:1px solid;margin:0 0 10px 0;padding:20px 0;padding-top:0;}
+#myModal .modal-dialog{margin-top:0;}

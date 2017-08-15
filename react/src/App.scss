@@ -1,0 +1,7 @@
+#danmuWindow{background-color:#333;height:500px;position:relative;border:1px solid #ccc;overflow:hidden;margin-bottom:10px;}
+#root{
+	position:relative;z-index:99999999;
+	.btn-default{margin-right:5px;}
+}
+#danmu{width:1180px;margin:30px auto;padding:0;font-size:20px;}
+#msg{margin-bottom:10px;}

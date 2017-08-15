@@ -1,0 +1,6 @@
+$controlWidth:100%;
+$textareaHeight:auto;
+$wrapperMarginTop:50px;
+#wrapper{margin-top:$wrapperMarginTop}
+#markdown{padding-top:25px;}
+	textarea{width:$controlWidth;height:$textareaHeight;}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,SACE,eAAiB,CAEnB,UACE,gBAAkB,CAEpB,SACE,WACA,WAAa","file":"static/css/main.80a7100d.css","sourcesContent":["#wrapper {\r\n  margin-top: 50px; }\r\n\r\n#markdown {\r\n  padding-top: 25px; }\r\n\r\ntextarea {\r\n  width: 100%;\r\n  height: auto; }\r\n\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}

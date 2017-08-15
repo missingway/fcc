@@ -1,0 +1,61 @@
+
+body{background: #F5F8FA;position: relative;}
+#logo{margin:0;}
+#logo img{display:inline-block;width:85px;}
+#my-header.page-header{z-index:999;background-color:#3097D1;height:150px;position: fixed;width:100%;margin:0;}
+#my-header .navbar-default{border:0;background: none;}
+#my-header #navbar-top{margin-top:50px;margin-bottom:0;margin-right:150px;}
+#my-header #navbar-top a{color:#fff;font-weight: bold;font-size: 18px;}
+#my-header .navbar-default{-webkit-box-shadow:none!important;}
+#my-header #navbar-top li.active a{background-color:#fff;color:#4d4d4d!important;}
+#footer{background: red;padding:10px;}
+#rights{background: green;padding:10px;}
+#content{width: 960px;z-index: 0;}
+section{margin-top: 50px;margin-bottom: 50px;}
+#about{margin-top: 180px;margin-bottom:50px;}
+section h3{text-align: center;margin-bottom:40px;font-size: 40px;}
+#logo a{display: inline-block;float: left;margin-left: 150px;margin-top: 50px;color:#fff;}
+#logo a:hover,#logo a:focus{text-decoration: none;color:#fff;}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+ 
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+#me{text-align: right;}
+#me img{width: 250px;}
+#portfolio a img{width:450px;height:450px; display: inline;}
+#portfolio .row{margin-bottom: 30px;}
+#portfolio .modal{text-align: center;z-index: 9999;padding: 40px 0;}
+#portfolio .modal img{width:1200px;height:600px;}
+#footer{background-color:#8DC1D7;color:#fff;padding: 0;}
+.inner{width: 960px;margin: 0 auto;padding: 80px 0;}
+#rights{background-color:#155A77;color:#fff;font-size: 16px;}
+#rights .inner{padding:20px 0;text-align: center;}
+#social{padding-left: 200px;position: relative;;top:-20px;}
+#madeby{position: relative;;top:-25px;}
+#contact-form{margin-bottom: 20px;}
+
+@media only screen and (max-width: 800px) {  
+	#content,.inner{width: auto;}
+    #logo a{display: none;}
+    #my-header.page-header{height:auto;position: relative;}
+    #about{padding:20px 10px;width:auto;}
+    .container{padding:0;}
+    #portfolio a img{width:auto;height:auto;display: block;margin-bottom: 20px;margin-top: 0;}
+    #portfolio .row{margin:0;}
+    #my-header #navbar-top{margin-top:20px;margin-left:10px;margin-right:0;float: left!important;}
+    .nav > li{float:left;}
+}  
